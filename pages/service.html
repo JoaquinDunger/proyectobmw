@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW</title>
+    <link rel="shortcut icon" href="/proyecto/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/proyecto/css/style.css">
+</head>
+<body class="grid-container">
+    <header class="grid-header">
+        <a class="header__img" href="cercatuyo.html"><img src="/proyecto/img/logo.png" alt="logobmw"></a>
+            <nav class="header__nav">
+                <ul>
+                    <li><a href="/proyecto/index.html">Inicio</a></li>
+                    <li><a href="ventas.html">Ventas</a></li>
+                    <li><a href="compras.html">Compras</a></li>
+                    <li><a href="service.html">Soporte</a></li>
+                    <li><a href="cercatuyo.html">Cerca tuyo</a></li>
+                </ul>
+            </nav>
+    </header>
+        <main class="main">
+            <h2 class="main__text">
+                SERVICE OFICIAL PARA TU VEHICULO
+            </h2>
+            <section class="main__section">
+                <img class="main__image" src="/proyecto/img/service.jpg">
+                <form>
+                    <fieldset class="main__form">
+                        <legend>AGENDA TU TURNO PARA EL SERVICE O REPARACION</legend>
+                            <label for="Nombre">Nombre:</label>
+                                <input type="text" name="Nombre" id="Nombre" placeholder="Escriba aqui su nombre">
+                            <label for="apellido">Apellido:</label>
+                                <input type="text" name="Apellido" id="Apellido" placeholder="Escriba aqui su apellido">
+                            <label for="Correo electrronico">Correo electronico</label>
+                                <input type="email" name="Correo Electronico" id="Correo Electronico" placeholder="Escriba aqui su correo electrronico">
+                            <label for="Telefono">Telefono:</label>
+                                <input type="number" name="Numero Telefonico" id="Numero telefonico" placeholder="Escriba aqui su numero telefonico">
+                            <label for="PAIS DE RESIDENCIA"> Pais de RESIDENCIA</label>
+                        <select name="Pais de residencia" id="Pais de residencia">
+                            <option value="ARG">Argentina</option>
+                            <option value="BR">Brasil</option>
+                            <option value="CH">Chile</option>
+                            <option value="URU">Uruguay</option>
+                            <option value="PR">Peru</option>
+                            <option value="USA">Estados Unidos</option>
+                        </select>
+                        <div>
+                            <label for="Fecha">Fecha de turno</label>
+                            <input type="date" name="Fecha" id="fecha">
+                        </div>
+                    <div>Acepta terminos y condiciones</div>
+                        <input type="checkbox" name="Acepto" value="1" required />
+                        <input type="submit" value="Enviar">
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+        <footer class="footer">
+            <h3>Todos los derechos son reservados para BMW SA</h3>
+            <div class="footer__images">
+                <a href="/proyecto/img/facebook.png"><img src="/proyecto/img/facebook.png"></a>
+                <a href="/proyecto/img/instagram.png"><img src="/proyecto/img/instagram.png"></a>
+                <a href="/proyecto/img/twitter.png"><img src="/proyecto/img/twitter.png"></a>
+            </div>
+    </footer>
+    </div>
+</body>
+</html>

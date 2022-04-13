@@ -1,0 +1,106 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+img {
+    max-width: 100%;
+}
+
+img,
+svg {vertical-align: middle;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax) 300px 1fr;
+    width: 80%;
+    margin: 0% auto;
+    background-color:  rgb(210, 211, 214);
+}
+
+.grid-header {
+    display: grid;
+    grid-auto-flow:column;
+    height: 40rem;
+    background-image: url(https://images.caricos.com/b/bmw/2019_bmw_3-series/images/1920x1080/2019_bmw_3-series_92_1920x1080.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.header__img {
+    width: 100px;
+}
+
+.header__nav ul li{
+   display: inline-block;
+   margin-left: 2rem;
+   border: none;
+   outline: none;
+   background-color: rgb(59, 59, 236);
+   color: rgb(255, 255, 255);
+   padding: 1rem 1rem 1rem;
+   border-radius: 8px;
+}
+
+ul {
+    list-style: none;
+}
+
+.hero {
+    display: flex;
+    background-color: rgb(210, 211, 214);
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__img {
+    justify-items: center;
+}
+
+.hero__text {
+    color: rgb(5, 5, 196);
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.main__text{
+    text-align: center;
+    padding: 2rem;
+    background-color:rgb(59, 59, 236);
+    border-radius: 69px;
+    width: auto;
+    margin: 10px;
+}
+
+.main__section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__form {
+    display: grid;
+    padding: 20px;
+    grid-template-rows: 40px;
+}
+
+.main__image{
+    width: 50rem;
+}
+
+.main__iframe {
+    vertical-align: middle;
+}
+
+.footer {
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    padding: 1;
+    justify-content: space-between;
+    align-content: center;
+}
